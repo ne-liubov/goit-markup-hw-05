@@ -744,9 +744,9 @@ padding-bottom: 120px;
 }
 
 .input-privacy:checked + .label-privacy + .span-privacy {
-    background-color: #404bbf;
+    background-color: var(--background-color, #404bbf);
     border: none;
-    fill: #F4F4FD;
+    fill: var(--icon-color, #F4F4FD);;
 }
 
 .a-privacy {
