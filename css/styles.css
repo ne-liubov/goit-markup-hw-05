@@ -628,7 +628,9 @@ padding-bottom: 120px;
 
 .button-modal:hover,
 .button-modal:focus {
-    fill: #ffffff
+    fill: #ffffff;
+    background-color: #404bbf;
+    border: none;
 }
 
 .svg-button-close {
@@ -732,7 +734,7 @@ padding-bottom: 120px;
 .span-privacy {
     width: 16px; 
     height: 16px; 
-    border: 1px solid rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4); 
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-flex;
@@ -741,7 +743,7 @@ padding-bottom: 120px;
     fill: transparent;
 }
 
-.input-privacy:checked + .label-privacy .span-privacy {
+.input-privacy:checked + .label-privacy + .span-privacy {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
