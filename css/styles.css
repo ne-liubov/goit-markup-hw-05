@@ -743,10 +743,10 @@ padding-bottom: 120px;
     fill: transparent;
 }
 
-.input-privacy:checked + .label-privacy + .span-privacy {
-    background-color: var(--background-color, #404bbf);
+.input-privacy:checked + .label-privacy > .span-privacy {
+    background-color: #404bbf;
     border: none;
-    fill: var(--icon-color, #F4F4FD);;
+    fill:  #F4F4FD;
 }
 
 .a-privacy {
